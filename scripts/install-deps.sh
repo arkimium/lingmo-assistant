@@ -1,9 +1,9 @@
 #!/bin/bash
-# Lingmo AI Assistant ¡ª Debian dependency installer
+# Lingmo AI Assistant for LingmoOS dependency installer
 set -e
 
 echo "============================================"
-echo "  Lingmo AI Assistant ¡ª Install Dependencies"
+echo "  Building Lingmo AI Assistant Dependencies"
 echo "============================================"
 echo ""
 
@@ -71,7 +71,7 @@ elif command -v rocm-smi &>/dev/null && rocm-smi &>/dev/null; then
     echo "[DETECT] AMD GPU found"
     HAS_HIP=1
 else
-    echo "[DETECT] No GPU detected ¡ª CPU-only mode"
+    echo "[DETECT] No GPU detected Â¡Âª CPU-only mode"
 fi
 
 if command -v vulkaninfo &>/dev/null && vulkaninfo &>/dev/null 2>&1; then
