@@ -51,9 +51,9 @@ int Settings::updateCheckInterval() const { return read("updates/checkInterval",
 void Settings::setUpdateCheckInterval(int days) { write("updates/checkInterval", days); emit updateCheckChanged(); }
 QString Settings::lastCheckTimestamp() const { return read("updates/lastCheck", QString()); }
 void Settings::setLastCheckTimestamp(const QString &ts) { write("updates/lastCheck", ts); emit updateCheckChanged(); }
-QString Settings::repoOwner() const { return read("updates/repoOwner", QStringLiteral("lingmo-os")); }
+QString Settings::repoOwner() const { return read("updates/repoOwner", QStringLiteral("arkimium")); }
 void Settings::setRepoOwner(const QString &v) { write("updates/repoOwner", v); emit updateCheckChanged(); }
-QString Settings::repoName() const { return read("updates/repoName", QStringLiteral("lingmo-ai-assistant")); }
+QString Settings::repoName() const { return read("updates/repoName", QStringLiteral("lingmo-assistant")); }
 void Settings::setRepoName(const QString &v) { write("updates/repoName", v); emit updateCheckChanged(); }
 QString Settings::snoozeUntil() const { return read("updates/snoozeUntil", QString()); }
 void Settings::setSnoozeUntil(const QString &dt) { write("updates/snoozeUntil", dt); emit updateCheckChanged(); }
