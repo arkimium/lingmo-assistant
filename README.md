@@ -33,7 +33,7 @@ debian/             dpkg-buildpackage configuration
 
 - Debian 12 (Bookworm) or later
 - Qt 6.4+ development packages
-- CMake 3.22+, Ninja (optional)
+- CMake 3.22+, Ninja
 - GCC 12+ or Clang 15+
 
 ## Quick Install
