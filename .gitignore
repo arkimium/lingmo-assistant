@@ -40,3 +40,5 @@ debian/lingmo-assistant.debhelper.log
 
 # Qt Creator
 *.autosave
+
+debian/debhelper-build-stamp
