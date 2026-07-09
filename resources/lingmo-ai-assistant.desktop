@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=LingmoOS AI Assistant
+Comment=Multi-backend AI Assistant with Material Design 3
+Exec=lingmo-assistant
+Icon=lingmo-ai-assistant
+Terminal=false
+Type=Application
+Categories=Office;Utility;
+Keywords=AI;Chat;LLM;Assistant;DeepSeek;Ollama;llama.cpp;
+StartupWMClass=lingmo-assistant
+StartupNotify=true
+X-GNOME-SingleMainWindow=true

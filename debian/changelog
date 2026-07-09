@@ -1,0 +1,10 @@
+lingmo-assistant (0.1.0-1) UNRELEASED; urgency=medium
+
+  * Initial release.
+  * Support DeepSeek, Ollama (local/cloud), llama.cpp backends.
+  * Material Design 3 UI with streaming chat.
+  * Hardware-aware local model detection and optimization.
+  * Context window management with token-budget trimming.
+  * Custom fonts: Outfit, Noto Sans SC, JetBrains Mono.
+
+ -- LingmoOS Team <team@lingmo.org>  Thu, 09 Jul 2026 00:00:00 +0800

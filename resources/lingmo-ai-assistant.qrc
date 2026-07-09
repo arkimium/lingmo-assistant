@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/main.qml</file>
+        <file>qml/theme/qmldir</file>
+        <file>qml/theme/M3Theme.qml</file>
+        <file>qml/theme/M3Colors.qml</file>
+        <file>qml/theme/M3Fonts.qml</file>
+        <file>qml/ChatView.qml</file>
+        <file>qml/MessageBubble.qml</file>
+        <file>qml/Sidebar.qml</file>
+        <file>qml/SettingsDialog.qml</file>
+        <file>qml/ModelDownloadDialog.qml</file>
+        <file>qml/SetupWizard.qml</file>
+        <file>qml/UpdateDialog.qml</file>
+        <file>qml/ProviderCard.qml</file>
+        <file>lingmo-ai-assistant.desktop</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,47 @@
+Source: lingmo-assistant
+Section: utils
+Priority: optional
+Maintainer: LingmoOS Team <team@lingmo.org>
+Build-Depends: debhelper-compat (= 13),
+               cmake (>= 3.22),
+               ninja-build,
+               qt6-base-dev (>= 6.4),
+               qt6-declarative-dev,
+               qt6-tools-dev,
+               qt6-tools-dev-tools,
+               qt6-svg-dev,
+               qt6-base-dev-tools,
+               libqt6network6,
+               libqt6core6,
+               libqt6qml6,
+               libqt6quick6,
+               libgl1-mesa-dev,
+               libvulkan-dev,
+               libcurl4-openssl-dev,
+               libssl-dev,
+               libfontconfig1-dev,
+               libfreetype6-dev
+Standards-Version: 4.7.3
+Homepage: https://lingmo.org
+Vcs-Git: https://github.com/lingmo-os/lingmo-ai-assistant.git
+Vcs-Browser: https://github.com/lingmo-os/lingmo-ai-assistant
+Rules-Requires-Root: no
+
+Package: lingmo-assistant
+Architecture: amd64
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         qt6-qpa-plugins,
+         libqt6svg6
+Recommends: ollama
+Suggests: llama-cpp
+Description: LingmoOS AI Assistant - multi-backend AI chat client
+ LingmoOS AI Assistant is a Material Design 3 chat client supporting multiple
+ AI backends: DeepSeek, Ollama (local and cloud), and llama.cpp for local GGUF
+ models.
+ .
+ It features streaming responses, conversation history management with
+ token-budget-based context trimming, hardware-aware model parameter
+ selection, and custom fonts (Outfit, Noto Sans SC, JetBrains Mono).
+ .
+ Built with Qt6 and QML on Debian.

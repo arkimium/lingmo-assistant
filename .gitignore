@@ -1,0 +1,42 @@
+# Build
+build/
+obj-x86_64-linux-gnu/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.o
+*.a
+*.so
+
+# IDE
+.vscode/
+.idea/
+*.user
+*.pro.user
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Debian build artifacts
+*.deb
+*.changes
+*.buildinfo
+*.dsc
+*.tar.*
+debian/files
+debian/.debhelper/
+debian/lingmo-assistant/
+debian/tmp/
+debian/lingmo-assistant.substvars
+debian/lingmo-assistant.debhelper.log
+
+# Docker
+*.tar
+
+# Logs
+*.log
+
+# Qt Creator
+*.autosave
