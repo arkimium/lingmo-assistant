@@ -1,9 +1,9 @@
 #!/bin/bash
-# Lingmo AI Assistant ¡ª Uninstall script
+# Lingmo AI Assistant for LingmoOS Uninstall script
 set -e
 
 echo "============================================"
-echo "  Lingmo AI Assistant ¡ª Uninstall"
+echo " Uninstalling Lingmo AI Assistant "
 echo "============================================"
 echo ""
 
