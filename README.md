@@ -51,14 +51,32 @@ lingmo-assistant
 ```bash
 git clone https://github.com/arkimium/lingmo-assistant.git
 cd lingmo-assistant
+```
 
-# Install dependencies
+#### Install dependencies
+
+```bash
+# One-liner
 make deps
 
-# Build
-make build
+# Or manually:
+sudo apt install -y \
+    build-essential cmake ninja-build pkg-config \
+    qt6-base-dev qt6-declarative-dev qt6-tools-dev \
+    qt6-tools-dev-tools qt6-svg-dev qt6-base-dev-tools \
+    libqt6network6 libqt6core6 libqt6qml6 libqt6quick6 \
+    qml6-module-qtquick-controls qml6-module-qtquick-layouts \
+    qml6-module-qtquick-templates qml6-module-qtquick-dialogs \
+    qml6-module-qtquick-window qml6-module-qtqml \
+    qml6-module-qtqml-workerscript qt6-qpa-plugins \
+    libgl1-mesa-dev libvulkan-dev libcurl4-openssl-dev \
+    libssl-dev libfontconfig1-dev libfreetype6-dev
+```
 
-# Run
+#### Build and run
+
+```bash
+make build
 make run
 
 # Or build .deb package
