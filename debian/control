@@ -23,8 +23,8 @@ Build-Depends: debhelper-compat (= 13),
                libfreetype6-dev
 Standards-Version: 4.7.3
 Homepage: https://lingmo.org
-Vcs-Git: https://github.com/lingmo-os/lingmo-ai-assistant.git
-Vcs-Browser: https://github.com/lingmo-os/lingmo-ai-assistant
+Vcs-Git: https://github.com/arkimium/lingmo-assistant.git
+Vcs-Browser: https://github.com/arkimium/lingmo-assistant
 Rules-Requires-Root: no
 
 Package: lingmo-assistant
